@@ -1,12 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="styling.css" />
+<link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bulbul Arora</title>
 </head>
-<body>
-    <p>This is my website</p>
+
+<body class="grid-container">
+    <div class="main">
+        <div class="name-main">
+            <div class="name-prof">
+                <h4 class="name">Bulbul Arora</h4>
+                <h4 class="prof">Software Systems Engineer</h4>
+            </div>
+            <div class="picture">
+                <img src="64860549.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="who">
+            <div class="picture-two-div">
+                <img class="picture_two" src="bulbul_day.jpg" alt="" />
+            </div>
+            <!-- new change - added the education section in the who am i section -->
+            <div class="text-container">
+                <div class="education-section">
+                    <div>
+                        <h1 class="edu-heading">Education</h1>
+                    </div>
+
+                    <div class="edu-content">
+                        <p>BASc in Software Systems Engineering</p>
+
+                        <p>University of Regina</p>
+                        <p>Completed August 2023</p>
+                    </div>
+                </div>
+                <div class="who-is-bulbul">
+                    <h1 class="about-heading">About Me</h1>
+
+                    <p class="about-desc">
+                        I am a recently graduated Software Systems Engineer with a strong
+                        academic background. My expertise lies in front-end, back-end, and
+                        full-stack development. I am passionate about creating innovative
+                        solutions, and I am actively seeking new graduate Software
+                        Engineering roles to kick-start my career. With a solid foundation
+                        in programming languages like Java, C++, and Python, as well as
+                        proficiency in web development technologies such as HTML, CSS, and
+                        JavaScript, I am ready to contribute to dynamic and challenging
+                        projects. Let's collaborate and build impactful software solutions
+                        together.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="education-section">
+            <div class="edu_heading">
+                <h2>Education</h2>
+            </div>
+
+            <div class="edu-content">
+                <h3>BASc in Software Systems Engineering</h3>
+                <ul>
+                    <li>University of Regina</li>
+                    <li>Completed August 2023</li>
+                </ul>
+
+            </div>
+        </div> -->
+
+        <div class="skills-section">
+            <div class="heading-skills">
+                <h1 class="head-skill">Skills</h1>
+            </div>
+            <div class="skills-list">
+                <div class="left-list">
+                    <ul>
+                        <li class="programming">
+                            Programming Languages:
+                            <ul>
+                                <li>C++</li>
+                                <li>
+                                    Java (Design Patterns, S.O.L.I.D. <br />Principles, Frameworks:<br />
+                                    Spring, JUnit Testing)
+                                </li>
+                                <li>JavaScript (jQuery, TypeScript)</li>
+                                <li>PHP</li>
+                                <li>Python (Pandas, NumPy, Sci-Kit)</li>
+                                <li>HTML/CSS3</li>
+                                <li>React</li>
+                                <li>MySQL</li>
+                                <li>Node.js</li>
+                                <li>TensorFlow</li>
+                            </ul>
+                        </li>
+                        <br />
+                        <li class="database">
+                            Databases:
+                            <ul>
+                                <li>MySQL</li>
+                                <li>PostgreSQL</li>
+                                <li>MongoDB</li>
+                                <li>Firebase</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-list">
+                    <ul>
+                        <li class="ide">
+                            IDEs and Tools:
+                            <ul>
+                                <li>IntelliJ IDEA (Java)</li>
+                                <li>PyCharm (Python)</li>
+                                <li>Visual Studio Code (VS Code)</li>
+                                <li>MySQL Workbench</li>
+                                <li>Anaconda</li>
+                                <li>Eclipse</li>
+                                <li>Postman (API testing)</li>
+                            </ul>
+                        </li>
+                        <br />
+                        <li class="ide">
+                            Personal Skills:
+                            <ul>
+                                <li>Mathematical Aptitude</li>
+                                <li>Problem Solving</li>
+                                <li>Excellent Organizational <br />and Time Management Skills</li>
+                                <li>Attention to Detail</li>
+
+                                <li>Team Player</li>
+                                <li>Quick Learner</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="projects">
+            <br /> <br />
+
+            <h1 class="head-projects">Past Projects</h1>
+
+            <!-- Capstone Project - "No More Waste" -->
+            <div class="card-container">
+                <div class="project-card">
+                    <div class="card-content">
+                        <h3>
+                           <a class="link1" href="https://github.com/bulbularora/No-More-waste"> Capstone Project - No More Waste</a>
+                        </h3>
+                        <ul>
+                            <li>
+                                Developed a Responsive Web App connecting restaurants with surplus
+                                food to shelter/rescue homes, effectively combating food waste in
+                                the City of Regina.
+                            </li>
+                            <li>
+                                Employed People-Centered design principles to ensure exceptional
+                                usability and accessibility.
+                            </li>
+                            <li>
+                                Implemented React, Express, and NodeJS as the core technologies for
+                                robust development.
+                            </li>
+                            <li>
+                                Hosted the application on Google Cloud's App Engine and utilized
+                                Digital Ocean for efficient MySQL database management.
+                            </li>
+                            <li>
+                                Utilized Twilio to send notifications to businesses, shelters, and
+                                volunteers during the delivery process, enhancing coordination and
+                                efficiency.
+                            </li>
+
+                            <li>
+                                Practiced Agile Methodology throughout the project's lifecycle to
+                                ensure flexibility and adaptability.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Riker scheduling -->
+                <div class="project-card">
+                    <div class="card-content">
+                        <h3>
+                            <a class="link1" href="https://github.com/bulbularora/Team-Riker">Riker Scheduling App</a>
+                        </h3>
+                        <ul>
+                            <li>
+                                Engineered a comprehensive scheduling app tailored for University
+                                students, featuring a dynamic Kanban Board and an intuitive Calendar
+                                function.
+                            </li>
+                            <li>
+                                Successfully applied Agile Methodology, conducting regular bi-weekly
+                                scrums with sponsors for seamless collaboration and progress
+                                tracking.
+                            </li>
+                            <li>
+                                Crafted an engaging frontend using HTML5 and CSS, integrated
+                                advanced JavaScript libraries for the calendar functionality,
+                                employed PHP for the robust backend, and utilized MySQL for
+                                efficient database management.
+                            </li>
+                            <li>
+                                Hosted the application on DigitalOcean, leveraging the power of
+                                phpMyAdmin to streamline MySQL database administration.
+                            </li>
+                            <li>
+                                Implemented the MVC architecture to ensure a well-structured and
+                                maintainable codebase.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <!-- ACO -->
+                    <div class="card-content">
+                        <h3>
+                            <a class="link1" href="https://github.com/bulbularora/Ant-Colony-optimization">Ant Colony Optimization (ACO) - Travelling Salesman Problem Solver</a>
+                        </h3>
+                        <ul>
+                            <li>
+                                Utilized the powerful Ant Colony Optimization algorithm to solve the
+                                complex Travelling Salesman Problem.
+                            </li>
+                            <li>
+                                Implemented the solution using Python, leveraging Jupyter Notebook
+                                and popular libraries such as Matplotlib for data visualization.
+                            </li>
+                            <li>
+                                Deployed the script on the web using PythonAnywhere, enabling
+                                convenient access and utilization of the solver.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="experience">
+            <br/><br/><br/>
+            <h1 class="head-experience">Professional Experience</h1>
+                <br/>
+                <div class="exp-card-container">
+                    <div class="exp-card">
+                        <div class="card-content">
+                            <h3>U of Regina Tutor Registry - Tutor</h3>
+                            <ul>
+                                <li>Tutor</li>
+                                <li>Sept. 2020 to Current</li>
+                                <li>
+                                    Assisted first and second-year students at the University in 
+                                    Mathematics, Computer Science, andEngineering courses.
+                                </li>
+                                <li>Recognized individual learning needs and 
+                                    tailored teaching approaches accordingly.</li>
+                                <li>
+                                    Engaged with students to identify specific
+                                    topics or subject areas requiring additional support and exploration.
+                                </li>
+                                <li>Provided comprehensive study aids to aid in future 
+                                    assignments and quizzes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="exp-card">
+                        <h3>Rogers Communications - Sales Associate</h3>
+                        <div class="card-content">
+                            <ul>
+                                <li>Sales Associate</li>
+                                <li>Jan. 2019 to Jan. 2020, Aug. 2021 to Jan. 2022</li>
+                                <li>
+                                    Customized sales approaches and techniques 
+                                    to meet the unique needs of individual clients, resulting 
+                                    in increased marketing effectiveness.
+                                </li>
+                                <li>
+                                    Consistently achieved 100% of assigned sales targets, 
+                                    demonstrating exceptional performance and results.
+                                </li>
+                                <li>Developed strong rapport with clients by actively 
+                                    understanding their requirements and effectively 
+                                    communicating product features and benefits.</li>
+                                <li>
+                                    Successfully handled complaints, returns, and conflicts, 
+                                    resolving them in a professional and satisfactory manner.
+                                </li>
+                                <li>Actively engaged with customers to comprehend 
+                                    their needs and recommended suitable mobility solutions.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="footer">
+            <h1 class="connect">Let us connect!</h1>
+            <br/><br/>
+            <div class="links">
+            <a class="link" href="https://www.linkedin.com/in/bulbul-arora-949292ab/">LinkedIn</a>
+            <a class="link" href="https://github.com/bulbularora">GitHub</a>
+        </div>
+        </div>
+    </div>
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="header"></div>
 </body>
+
 </html>
