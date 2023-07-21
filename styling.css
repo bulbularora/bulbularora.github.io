@@ -3,35 +3,8 @@
     grid-template-columns: 1fr 25fr 1fr;
     grid-template-rows: auto auto;
     background-color: #DDD0C8;
-    /* font-family: 'Segoe UI', sans-serif; */
     font-family: 'DM Sans', sans-serif;
-
 }
-
-/* .header {
-  color: #454b1b;
-
-  
-
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-} */
-
-/* .left {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-.right {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-} */
 
 .main {
     grid-column-start: 1;
@@ -61,26 +34,24 @@ h4 {
 img {
     border-radius: 30%;
     width: 100%;
+    border: 0.1vh solid #323232;
+
 }
 
 .name-main {
     margin-top: -4vh;
     display: flex;
     align-items: center;
-    /* Align items vertically in the center */
-    /* background-color: blue; */
     height: 100vh;
 }
 
 .name-prof {
     flex: 1;
-    /* Allow text to take up remaining space */
     margin-left: 40vh;
 }
 
 .picture {
     margin-right: 40vh;
-    /* margin-left: 20px; Add some spacing between text and image */
 }
 
 .prof {
@@ -101,11 +72,9 @@ img {
 
 .picture_two {
     flex: 1;
-    /* margin-right: 20px; */
     width: 50%;
     margin-left: 30vh;
-    /* margin-right: -60vh; */
-    border: 0.5vh solid #323232;
+    border: 0.1vh solid #323232;
 
 }
 
@@ -160,9 +129,6 @@ img {
     align-items: center;
     margin-right: 40vh;
     color: #323232;
-    /* border-right: 1px solid #32597d; */
-    /* background-color: red; */
-
 }
 
 .left-list {
@@ -174,10 +140,7 @@ img {
     font-size: large;
     align-items: center;
     margin-left: 40vh;
-    /* margin-right: 30vh; */
     color: #323232;
-    /* border-left: 1px solid #32597d; */
-    /* background-color: green; */
 }
 
 .projects {
@@ -190,26 +153,6 @@ img {
     color: white;
     text-align: center;
 }
-
-/* .project-list {
-    display: flex;
-    margin-top: 10vh;
-    flex-wrap: wrap;
-
-} */
-
-/* .right-list, .left-list,  {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    line-height: 3vh;
-    font-size: large;
-    align-items: center;
-    margin-right: 40vh;
-    color:#32597d;
-    /* border-right: 1px solid #32597d; */
-/* background-color: red; */
 
 .card-container {
     display: grid;
@@ -229,35 +172,11 @@ img {
     height: 100%;
     line-height: 3vh;
     padding: 2vh;
-
 }
-
-
-
-
-/* .card-content {
-    padding: 1vh;
-    margin-left: 2vh;
-    margin-right: 2vh;
-} */
 
 .card-content h3 {
     margin-top: 2vh;
 }
-
-/*       
-      .btn {
-        display: inline-block;
-        padding: 8px 16px;
-        background-color: #007bff;
-        color: #ffffff;
-        text-decoration: none;
-        border-radius: 4px;
-      }
-      
-      .btn:hover {
-        background-color: #0056b3;
-      } */
 
 .experience {
     height: 100vh;
@@ -290,7 +209,7 @@ img {
     height: 50vh;
 }
 
-.footer{
+.footer {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -300,23 +219,23 @@ img {
     justify-content: center;
 }
 
-.connect{
+.connect {
     text-align: center;
     justify-content: center;
 }
 
 .links {
-    margin-top: 20px; /* Adjust the spacing between heading and links */
+    margin-top: 20px;
     color: white;
-  }
-  
-  .link {
+}
+
+.link {
     color: white;
     display: block;
     text-align: center;
-    margin-bottom: 10px; /* Adjust the spacing between links */
-  }
+    margin-bottom: 10px;
+}
 
-  .link1{
-    color:#323232
-  }
+.link1 {
+    color: #323232
+}
