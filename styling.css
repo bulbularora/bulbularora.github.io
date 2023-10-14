@@ -56,7 +56,7 @@ img {
 
 .prof {
     font-size: 150%;
-    margin-top: -5vh;
+    margin-top: -5vw;
     color: #323232;
 }
 
@@ -67,7 +67,7 @@ img {
     align-items: center;
     background-color: #66615A;
     color: white;
-    height: 100vh;
+    height: 50vw;
 }
 
 .picture_two {
@@ -239,3 +239,5 @@ img {
 .link1 {
     color: #323232
 }
+
+
